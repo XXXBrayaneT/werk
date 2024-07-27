@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Werving</title>
+    <link rel="stylesheet" type="text/css" href="Recrutement.css">
+    <script src="https://kit.fontawesome.com/841326a54b.js" crossorigin="anonymous"></script>
+</head>
+<body>
+   
+
+    <main>
+
+             <h1>Welkom  </h1>
+        
+            <div class="box">
+                
+                <fieldset>
+    
+                <p><legend> JOIN THE SQUAD</legend></p>
+    
+                <p id="firsttext">Fill in the boxes below then press send to validate</p>
+                  <br>
+        
+                    <form action="https://api.web3forms.com/submit" method="POST">
+                        <input type="hidden" name="access_key" value="f27dab7f-2197-419c-8136-3a3856c172ea">
+        
+                        <p>
+                          <p>Name    : <input type="text" name="naam" id="naam" placeholder="Give your firts name" required></p>
+                          <p>Surname :<input type="text" name="voornaam" id="naam" placeholder="Give your last name" required></p>
+                          <p>Age     :<input type="text" name="leeftijd" id="leeftijd" placeholder="Geef je leeftijd" required></p>
+                          <p>Date of birth :<input type="date" id="birthday" name="birthday">
+                        </p>
+                        
+                        <p> Gender
+                          <input type="radio" name="geslacht" id="geslacht" value="M" checked ="checked">M
+                          <input type="radio" name="geslacht" id="geslacht" value="V">V
+                          <input type="radio" name="geslacht" id="geslacht" value="X">X
+                        </p>
+          
+                        <p> Note :<textarea name="message" required></textarea></p>
+    
+                        <p>          
+                          Email : <input class="form-control" name="EMAIL" placeholder="Give your E-mail" onfocus="this.placeholder = ''" onblur="this.placeholder ='brayanetchinda54@gmail.com'" required="" type="email">
+                        </p> 
+    
+                        <p style="text-align: center;">
+                            <input type="checkbox" name="info">My information is all good
+                        </p>
+        
+                        <button>
+                            Send
+                            <div id="clip">
+                                <div id="leftTop" class="corner"></div>
+                                <div id="rightBottom" class="corner"></div>
+                                <div id="rightTop" class="corner"></div>
+                                <div id="leftBottom" class="corner"></div>
+                            </div>
+                            <span id="rightArrow" class="arrow"></span>
+                            <span id="leftArrow" class="arrow"></span>
+                        </button>
+        
+                        <div>
+                            <div class="media-body">
+        
+                            <h3><a href="tel:+320469131578">00 (32) 469131578</a> </h3>
+                        
+                            </div>
+                        </div>
+                    </form>
+        
+                </fieldset>
+            </div>
+
+    </main>
+ 
+</body>
+</html>
